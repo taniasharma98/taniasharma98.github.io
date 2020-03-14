@@ -1,0 +1,251 @@
+body{
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.bio{
+  font-weight:300;
+}
+
+.intro{
+  font-weight:400;
+}
+
+.contact{
+  font-weight:300;
+}
+
+.navContent{
+  margin-top:70px;
+}
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+   /* background-color: lightblue; */
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align:center;
+
+}
+
+.sidenav a {
+  display: block;
+  color:black;
+  text-decoration: none;
+  font-size:14px;
+}
+
+.sidenav a:hover{
+  color:#675d5b;
+}
+
+.mobileNav{
+  background-color:#F5F5F5;
+   height:100%;
+  width:500px;
+ top:0;
+  left:0;
+  position:relative;
+  text-align:center;
+  padding: 30px 0;
+  overflow-x: hidden;
+}
+
+.mobileNav a{
+  display:block;
+  color:black;
+  text-decoration:none;
+
+}
+.mobileNav a:hover{
+  color:#675d5b;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+
+}
+
+.mobileMain{
+  padding: 0px 10px;
+  margin-left: 30px;
+}
+
+.accordion {
+  color: black;
+  cursor: pointer;
+  font-weight:500;
+  font-size:14px;
+}
+
+.accordion:hover{
+  color:#eecac1;
+  transition:  0.1s ease-in;
+}
+
+.contact:hover{
+  color:red;
+  cursor: pointer;
+  transition:  0.1s ease-in;
+}
+
+.panel {
+  color:black;
+  font-size:14px;
+  font-weight:300;
+  max-height: 0;
+  overflow:hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+.panel:hover{
+  color:#675d5b;
+}
+.largeSpacer{
+  margin-bottom:40px;
+}
+
+.bigSpacer{
+  margin-bottom:20px;
+}
+
+.smallSpacer{
+  margin-bottom:15px;
+}
+.logo{
+  color:black;
+}
+
+
+.aboutme{
+  padding:20px;
+  margin-top:200px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.mobileimg{
+  margin-left:50px;
+}
+
+.gifcontainer{
+  margin-left:100px;
+}
+
+.mobilegifcontainer{
+  margin-left:200px;
+}
+
+
+.pageMargins{
+  margin-top:100px;
+  margin-right:20px;
+  margin-left:20px;
+}
+
+.projectTitle{
+  text-align: center;
+}
+
+.roleDetails{
+  font-size: 15px;
+  font-weight:300;
+  line-height:30px;
+}
+.roleCaption{
+    font-size: 15px;
+    color:#A9A9A9;
+}
+.contentHeading{
+  font-weight:300;
+  font-size:18px;
+}
+
+.contentHeading02{
+  font-weight:300;
+  font-size:18px;
+  font-style:italic;
+  line-height: 25px;
+}
+
+.imgCaption{
+  font-size: 15px;
+  font-weight:300;
+  line-height:30px;
+  color:#A9A9A9;
+  font-style: italic;
+  text-align: center;
+}
+
+.videoCaption{
+  font-size: 12px;
+  font-weight:300;
+  line-height:30px;
+  color:#A9A9A9;
+  font-style: italic;
+  text-align: center;
+}
+
+.inquire{
+  margin-top:350px;
+}
+
+.bioMargins{
+  margin-left:100px;
+  margin-right:70px;
+}
+
+a{
+  color:grey;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #ccbab6;
+  text-decoration:none;
+}
+@media (max-width: 539px) {
+    .sidenav {
+        display: none;
+    }
+    .main{
+      margin-left:0;
+    }
+
+    .main{
+      display: none;
+    }
+
+
+}
+/* Hide element on Desktop */
+@media only screen and (min-width: 539px) {
+    .mobileNav {
+        display: none !important;
+        -moz-appearance: none;
+
+
+    }
+
+.mobileMain{
+  display: none !important;
+  -moz-appearance: none;
+
+
+}
+}
+
+@media only screen and (min-width: 992px) {
+  .intro{
+    margin-top: 100px;
+
+  }
+}
