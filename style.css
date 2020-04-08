@@ -29,7 +29,7 @@ body {
 	left: 0;
 	/* background-color: lightblue; */
 	overflow-x: hidden;
-	padding-top: 20px;
+	padding-top: 40px;
 	text-align: center;
 }
 
@@ -95,7 +95,7 @@ body {
 	color: black;
 	font-size: 14px;
 	font-weight: 300;
-	max-height: 0;
+	max-height:0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 }
