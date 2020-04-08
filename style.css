@@ -19,10 +19,10 @@ body{
 }
 
 .navContent{
-  margin-top:70px;
+  margin-top:40px;
 }
 .sidenav {
-  height: 100%;
+
   width: 300px;
   position: fixed;
   z-index: 1;
@@ -48,7 +48,6 @@ body{
 
 .mobileNav{
   background-color:#F5F5F5;
-   height:100%;
   width:500px;
  top:0;
   left:0;
