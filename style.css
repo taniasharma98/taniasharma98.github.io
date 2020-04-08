@@ -1,10 +1,13 @@
 body{
   font-family: 'Roboto Mono', monospace;
 }
-
+.photoMargin{
+  margin-bottom: 50px;
+}
 
 .bio{
   font-weight:300;
+  font-size: 17px;
 }
 
 .intro{
@@ -40,7 +43,7 @@ body{
 }
 
 .sidenav a:hover{
-  color:#675d5b;
+  color: #c7cbd2; //lightgrey
 }
 
 .mobileNav{
@@ -62,11 +65,12 @@ body{
 
 }
 .mobileNav a:hover{
-  color:#675d5b;
+  color: #c7cbd2;
 }
 
 .main {
   margin-left: 200px; /* Same as the width of the sidenav */
+ padding: 20px 20px;
 
 }
 
@@ -103,9 +107,6 @@ body{
 }
 
 
-.panel:hover{
-  color:#675d5b;
-}
 .largeSpacer{
   margin-bottom:40px;
 }
@@ -198,18 +199,16 @@ img {
   margin-top:350px;
 }
 
-.bioMargins{
-  margin-left:100px;
-  margin-right:70px;
-}
+
 
 a{
-  color:grey;
+  color:#6b98e1;
+
   text-decoration:none;
 }
 
 a:hover {
-  color: #ccbab6;
+  color: #c7cbd2;
   text-decoration:none;
 }
 @media (max-width: 539px) {
@@ -217,7 +216,7 @@ a:hover {
         display: none;
     }
     .main{
-      margin-left:0;
+      margin-left:0px;
     }
 
     .main{
@@ -232,20 +231,10 @@ a:hover {
         display: none !important;
         -moz-appearance: none;
 
-
     }
 
 .mobileMain{
   display: none !important;
   -moz-appearance: none;
-
-
 }
-}
-
-@media only screen and (min-width: 992px) {
-  .intro{
-    margin-top: 100px;
-
-  }
 }
